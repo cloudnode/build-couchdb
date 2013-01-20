@@ -1,0 +1,4 @@
+148c148
+<         port=open_port({spawn, Spawnkiller ++ " " ++ Command}, PortOptions),
+---
+>         port=open_port({spawn, "\"" ++ Spawnkiller ++ "\" " ++ Command}, PortOptions),

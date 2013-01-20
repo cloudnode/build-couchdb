@@ -1,0 +1,4 @@
+8002c8002
+< 	  *-arch*ppc*|*-arch*i386*|*-arch*x86_64*) ac_cv_c_bigendian=universal;;
+---
+> 	  *-arch*ppc*) ac_cv_c_bigendian=yes;;

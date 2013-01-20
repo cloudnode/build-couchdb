@@ -1,0 +1,4 @@
+70c70
+< HELP2MAN_OPTION=--no-info --help-option="-h" --version-option="-V"
+---
+> HELP2MAN_OPTION=--no-info --help-option="-h" --version-option="-V" --no-discard-stderr
